@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: #CFDEF4;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 39px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+
+
+
+/* /////    HEADER     ///// */
+
+h4.left {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.header {
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    height: 112px;
+    align-items: center;
+}
+
+header .right {
+    display: flex;
+}
+
+.right .sing_in {
+    background-color: black;
+    color: white;
+    width: 150px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+ul.header_links {
+    /* width: 440px; */
+    display: flex;
+}
+
+ul.header_links li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+
+/* /////    ИСКРА     ///// */
+
+div.name {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E01387;
+}
+
+div h1 {
+    font-size: 135px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.name_h2 {
+    font-size: 39px;
+    text-transform: uppercase;
+    line-height: 89%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.main_image_text {
+    border: 1px solid black;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 60px;
+    margin: 60px 0;
+    background-color: #F2FBFF;
+}
+
+.main_image {
+    border-radius: 30px;
+    /* border: 2px solid #E01387; */
+    max-width: 922px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.main_text {
+    margin-top: 60px;
+}
+
+/* /////    НАШИ УСЛУГИ     ///// */
+
+.product_h4 {
+    margin: 60px 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: unset;
+}
+.right {
+    display: unset;
+}
+
+.blue {
+    background-color: #0279DE;
+}
+
+.pink {
+    background-color:#E01387;
+}
+.black {
+    background-color: black;
+}
+.rectangle {
+    box-sizing: border-box;
+    padding: 60px;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.left .rectangle {
+    max-width: 590px;
+}
+
+.right .rectangle {
+    max-width: 420px;
+}
+
+.rectangle h2{
+    /* text-transform: uppercase; */
+    font-weight: bolder;
+    word-break: break-all;
+}
+
+.rectangle .text {
+    margin-top: 30px;
+    font-weight:300;
+}
