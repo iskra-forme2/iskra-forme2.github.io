@@ -31,6 +31,11 @@ h5 {
     font-size: 18px;
 }
 
+a{
+    font-size: 22px;
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
@@ -63,6 +68,13 @@ header .right {
     padding: 12px 40px;
     font-size: 16px;
     font-weight: bold;
+
+    transition: .5s;
+}
+
+.sign_in:hover {
+    background-color: #0279DE;
+    transition: .5s;
 }
 
 ul.header_links {
@@ -76,6 +88,13 @@ ul.header_links li {
     display: flex;
     /* display: inline-block; */
     align-items: center;
+    color: rgba(9, 50, 85, 0.5);
+    transition: .5s;
+}
+
+ul.header_links li:hover {
+    color: black;
+    transition: .5s;
 }
 
 
