@@ -12,19 +12,23 @@ body {
 }
 
 h2 {
-    font-size: 45px;
+    /* font-size: 45px; */
+    font-size: 30px;
 }
 
 h3 {
-    font-size: 39px;
+    /* font-size: 39px; */
+    font-size: 25px;
 }
 
 h4 {
-    font-size: 35px;
+    /* font-size: 35px; */
+    font-size: 22px;
 }
 
 h5 {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 18px;
 }
 
 
@@ -49,29 +53,36 @@ header .right {
     display: flex;
 }
 
-.right .sing_in {
+button.sign_in {
     background-color: black;
     color: white;
     width: 150px;
     text-align: center;
+    border: none;
     border-radius: 30px;
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 ul.header_links {
-    /* width: 440px; */
+    /* justify-content: center; */
     display: flex;
 }
 
 ul.header_links li {
     list-style-type: none;
     margin-right: 30px;
+    display: flex;
+    /* display: inline-block; */
+    align-items: center;
 }
 
 
 /* /////    ИСКРА     ///// */
 
 div.name {
-    margin-top: 60px;
+    margin: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,24 +103,24 @@ div h1 {
 }
 
 .main_image_text {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 30px;
     box-sizing: border-box;
-    padding: 60px;
-    margin: 60px 0;
-    background-color: #F2FBFF;
+    /* padding: 60px; */
+    margin: 0 0 30px 0;
+    /* background-color: #F2FBFF; */
 }
 
 .main_image {
     border-radius: 30px;
     /* border: 2px solid #E01387; */
-    max-width: 922px;
+    max-width: 1040px;
     box-sizing: border-box;
     margin: 0 auto;
 }
 
 .main_text {
-    margin-top: 60px;
+    margin: 30px 0 60px;
 }
 
 /* /////    НАШИ УСЛУГИ     ///// */
@@ -133,21 +144,49 @@ div h1 {
 }
 
 .blue {
+    border: 2px solid #0279DE;
+    transition: 0.5s;
+
+}
+
+.blue:hover {
     background-color: #0279DE;
+    color: white;
+    transition: 0.5s;
 }
 
 .pink {
+    border: 2px solid #E01387;
+    transition: 0.5s;
+}
+
+.pink:hover {
     background-color:#E01387;
+    color:white;
+    transition: 0.5s;
 }
+
 .black {
-    background-color: black;
+    border: 2px solid black;
+    transition: .5s;
 }
+
+.black:hover {
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+}
+
 .rectangle {
     box-sizing: border-box;
     padding: 60px;
     border-radius: 30px;
-    color: white;
+    /* color: white; */
+    color: black;
     margin-bottom: 30px;
+
+    background-color: white;
+    /* border: 1px solid black; */
 }
 
 .left .rectangle {
