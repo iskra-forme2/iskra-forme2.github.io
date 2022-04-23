@@ -53,7 +53,7 @@ header .right {
     display: flex;
 }
 
-button.sign_in {
+.sign_in {
     background-color: black;
     color: white;
     width: 150px;
