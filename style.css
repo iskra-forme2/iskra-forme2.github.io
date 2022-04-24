@@ -5,10 +5,16 @@
     font-weight: normal;
 }
 
+.background {
+    background-color: #9CB7D4;
+}
+
 body {
     background-color: #CFDEF4;
+    box-shadow: 0 0 60px rgba(71, 112, 157, 0.5);
     max-width: 1040px;
     margin: 0 auto;
+    padding: 0 60px;
 }
 
 h2 {
