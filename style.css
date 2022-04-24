@@ -200,6 +200,14 @@ div h1 {
     color: black;
 }
 
+.white_text {
+    color: white;
+}
+
+.half_white_text {
+    color: rgba(255,255,255, 0.8);
+}
+
 .rectangle {
     box-sizing: border-box;
     padding: 60px;
@@ -242,4 +250,43 @@ div h1 {
 
 .white_rectangles {
     display: flex;
+}
+
+.rectangles_ceny {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_ceny, .right_ceny {
+    width: calc(50% - 15px);
+}
+
+.left_ceny {
+    background-color:#E01387;
+}
+
+.right_ceny {
+    background-color: #0279DE;
+}
+
+.ceny_plus {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* margin: 15px 0; */
+}
+
+.right_ceny_plus, .left_ceny_plus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_ceny_plus h5{
+    /* margin-left: 30px; */
+    width: 150px;
+}
+
+
+.line_ceny {
+    margin: 15px 0;
 }
