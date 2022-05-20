@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    
+}
+
+.background {
+    /* background-color: #9CB7D4; */
+}
+
+body {
+    /* background-color: #CFDEF4; */
+    /* box-shadow: 0 0 60px rgba(71, 112, 157, 0.5); */
+    /* max-width: 1040px; */
+    /* width: 80vw; */
+
+    margin: 0 auto;
+    /* padding: 0 60px; */
+
+    padding: 0 10vw;
+    /* margin: 0 10vw; */
+}
+
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 13px;
+}

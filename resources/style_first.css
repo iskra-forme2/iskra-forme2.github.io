@@ -1,0 +1,47 @@
+
+.first_slide {
+    display: inline-flex;
+    /* justify-content: space-between; */
+    box-sizing: border-box;
+    margin: 60px 0;
+}
+
+.name {
+    flex-shrink: 2;
+    padding-right: 30px;
+    /* margin-right: 5%; */
+    /* max-width: 45%; */
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.name img {
+    max-width: 80%;
+}
+
+.name h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height:90%;
+    margin: 30px 0;
+    word-wrap: break-word;
+    font-style: italic;
+    color: #164678;
+
+    /* overflow-wrap: break-word; */
+}
+
+.main_text {
+    word-wrap: break-word;
+    line-height:140%;
+
+    color: #164678;
+
+}
+
+img.main_image {
+    max-width: 50%;
+    object-fit: cover;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
