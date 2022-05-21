@@ -1,0 +1,116 @@
+.white_rectangles {
+    display: inline-flex;
+    /* border: 1px solid black; */
+
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+
+    width: 100%;
+    justify-content: space-between;
+    padding: 60px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .12);
+    /* background-color: #000000; */
+}
+
+.rectangle_white {
+    border: 1px solid #000000;
+    padding: 30px 30px 60px;
+    box-sizing: border-box;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.rectangle_white_center {
+    margin: 0 30px;
+}
+
+.ceny {
+    display: inline-flex;
+    align-items: baseline;
+    margin: 0 0 15px 0;
+}
+
+/* ///////////////// ТАБЛИЦА ///////////////////\ */
+
+table {
+    padding: 0 30px 30px;
+    background-color: rgba(0, 0, 0, .12);
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.chisla_left_border {
+    border-left: 1px solid rgba(0, 0, 0, .12);
+}
+.chisla_top_border {
+    border-top: 1px solid rgba(0, 0, 0, .12);
+}
+
+.text_chisla {
+    padding: 15px;
+    background-color: white;
+}
+
+.chisla {
+    background-color: white;
+    font-size: 35px;
+    font-weight: bold;
+
+    align-items: center;
+    text-align: center;
+
+    padding: 15px 0;
+}
+
+/* //////////////////  ДНИ РОЖДЕНИЯ  /////////////////// */
+
+.rectangles_ceny {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rectangle_left_ceny, .rectangle_right_ceny {
+    padding: 60px;
+    width: 100%;
+}
+
+.rectangle_left_ceny {
+    border: 1px dashed #FF2359;
+    background-color: #FFE6EC;
+    color: #FF2359;
+    margin-right: 15px;
+}
+
+.rectangle_right_ceny {
+    border: 1px dashed #164678;
+    background-color: #E1EFFB;
+    color: #164678;
+    margin-left: 15px;
+
+}
+
+.left_ceny_plus, .right_ceny_plus {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.line_ceny {
+    margin: 15px 0;
+}
+
+.third_words {
+    display: flex;
+    align-items: baseline;
+}
+
+.budni {
+    padding-left: 15px;
+    opacity: 50%;
+    color: #164678;
+}
