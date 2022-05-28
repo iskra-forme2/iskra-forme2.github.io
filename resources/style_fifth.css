@@ -1,0 +1,27 @@
+.news {
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    scrollbar-color: #FF2359 #e4e4e4;
+}
+
+
+.news_box {
+    min-width: 300px;
+    border: 1px solid black;
+    padding: 30px;
+
+    margin-right: 30px;
+    /* box-sizing: border-box; */
+}
+
+.news_image {
+    width: 100%;
+    /* object-fit: cover; */
+    
+}
+
+.news h3{
+    margin: 15px 0;
+    font-weight: 600;
+}
