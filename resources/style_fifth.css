@@ -1,6 +1,7 @@
 .news {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    /* justify-content: space-around; */
     flex-wrap: wrap;
 
     scrollbar-color: #FF2359 #e4e4e4;
@@ -8,7 +9,7 @@
 
 
 .news_box {
-    width: 200px;
+    max-width: 200px;
 
     flex: 1 0 200px;
 
