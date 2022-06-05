@@ -1,7 +1,7 @@
 .news {
     display: flex;
-    justify-content: center;
-    /* justify-content: space-around; */
+    /* justify-content: center; */
+    justify-content: space-between;
     flex-wrap: wrap;
 
     scrollbar-color: #FF2359 #e4e4e4;
@@ -9,15 +9,15 @@
 
 
 .news_box {
-    max-width: 200px;
-
-    flex: 1 0 200px;
+    max-width: 32%;
+    margin-bottom: 2%;
+    /* flex: 1 0 200px; */
 
     border: 1px solid black;
     padding: 30px;
+    /* margin:0 15px 30px; */
+    box-sizing: border-box;
 
-    margin:0 15px 30px;
-    /* box-sizing: border-box; */
 }
 
 .news_image {
@@ -29,4 +29,20 @@
 .news h3{
     margin: 15px 0;
     font-weight: 600;
+}
+
+@media screen and (max-width: 950px) { 
+
+.news_box {
+    max-width: 48%;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .news_box {
+        max-width: 100%;
+    }
+
 }

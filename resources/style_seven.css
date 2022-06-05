@@ -1,0 +1,35 @@
+.contacts {
+    background-color: #000000;
+    color: white;
+    padding: 60px 10vw;
+    margin-top: 60px;
+}
+
+.h30 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.padding_contacts {
+    padding-bottom: 20px;
+}
+
+.half_opacity {
+    opacity: 60%;
+}
+
+.icons {
+    margin-top: 30px;
+}
+
+.icon {
+    padding-right: 15px;
+}
+
+.icon:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
