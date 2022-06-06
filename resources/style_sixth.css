@@ -46,6 +46,9 @@ button:hover {
     z-index: 0;
 }
 
+
+
+
 @media screen and (max-width: 1250px) { 
     .map {
         width: 450px;
