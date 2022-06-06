@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html class="background">
+<html lang="ru" class="background">
     <head>
+        <title>ИСКРА</title>
         <link rel="stylesheet" href="./resources/style_whole.css">
         <link rel="stylesheet" href="./resources/style_header.css">
         <link rel="stylesheet" href="./resources/style_first.css">
@@ -10,6 +11,8 @@
         <link rel="stylesheet" href="./resources/style_fifth.css">
         <link rel="stylesheet" href="./resources/style_sixth.css">
         <link rel="stylesheet" href="./resources/style_seven.css">
+
+        
 
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
@@ -34,7 +37,7 @@
                         <li><a href="#news">новости</a></li>
                         <li><a href="#contacts">контакты</a></li>
                     </ul>
-                    <button href="#" class="sign_in">Войти</button>
+                    <a href="#" class="sign_in">Войти</a>
                 </div>
             </header>
             <!-- ////  END OF HEADER  //// -->
@@ -281,28 +284,28 @@
         <div class="news_box">
             <img class="news_image" src="./resources/images/news/2.png" alt="">
 
-            <h3>Индивидуальные и групповые тренировки по прыжкам на батутах</h5>
-            <h4>Мастера спорта, профессионалы своего дела помогут вам обрести уверенность в себе, повысить качество жизни, укрепить здоровье и просто приятно провести время.</h3>
+            <h3>Индивидуальные и групповые тренировки по прыжкам на батутах</h3>
+            <h4>Мастера спорта, профессионалы своего дела помогут вам обрести уверенность в себе, повысить качество жизни, укрепить здоровье и просто приятно провести время.</h4>
         </div>
 
         <div class="news_box">
             <img class="news_image" src="./resources/images/news/3.png" alt="">
 
-            <h3>Индивидуальные и групповые тренировки на скалодроме</h5>
-            <h4>Вы можете задать любой интересующий вас вопрос нашими менеджерам через данную форму.</h3>
+            <h3>Индивидуальные и групповые тренировки на скалодроме</h3>
+            <h4>Вы можете задать любой интересующий вас вопрос нашими менеджерам через данную форму.</h4>
         </div>
 
         <div class="news_box">
             <img class="news_image" src="./resources/images/news/4.png" alt="">
 
-            <h3>Мастеркласс от Олимпийского чемпиона</h5>
-            <h4>Мастера спорта, профессионалы своего дела помогут вам обрести уверенность в себе. Мы уделили немало внимания и организации качественного детского фитнеса.</h3>
+            <h3>Мастеркласс от Олимпийского чемпиона</h3>
+            <h4>Мастера спорта, профессионалы своего дела помогут вам обрести уверенность в себе. Мы уделили немало внимания и организации качественного детского фитнеса.</h4>
         </div>
 
         <div class="news_box">
             <img class="news_image" src="./resources/images/news/1.png" alt="">
 
-            <h3>Новогодний квест «в поисках новогоднего символа» для детей от 3 лет</h5>
+            <h3>Новогодний квест «в поисках новогоднего символа» для детей от 3 лет</h3>
             <!-- <h4>Мастера спорта, профессионалы своего дела помогут вам обрести уверенность в себе, повысить качество жизни, укрепить здоровье и просто приятно провести время.</h3> -->
         </div>
 
@@ -317,10 +320,10 @@
             <div class="contacts_yandex">
                 <h3 class="h3_margin">Вы можете задать любой интересующий вас вопрос
                     нашим менеджерам через данную форму.</h3>
-                <input placeholder="Ваше имя" class="rectangle_map"></input>
-                <input placeholder="E-mail" class="rectangle_map"></input>
-                <input placeholder="Телефон" class="rectangle_map"></input>
-                <input placeholder="Сообщение" class="rectangle_map"></input>
+                <input placeholder="Ваше имя" class="rectangle_map">
+                <input placeholder="E-mail" class="rectangle_map">
+                <input placeholder="Телефон" class="rectangle_map">
+                <input placeholder="Сообщение" class="rectangle_map">
 
                 <button class="">Отправить</button>
             </div>
@@ -366,7 +369,7 @@
 
 </body>
     <!--  --------------  -->
-<script type="text/javascript">
+<script>    
     window.addEventListener('scroll', function(){
         var header = document.querySelector('header');
         header.classList.toggle('sticky', window.scrollY > 0);
