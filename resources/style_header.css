@@ -91,6 +91,8 @@ header {
     justify-content: space-between;
     padding: 30px 10%;
     background-color: #fff;
+
+    z-index: 1000;
 }
 
 
