@@ -1,7 +1,8 @@
 @media screen and (min-width: 900px) {
 
 .white_rectangles {
-    display: inline-flex;
+    /* display: inline-flex; */
+    display: flex;
     /* border: 1px solid black; */
 
     border-top: 1px solid #000000;
@@ -21,11 +22,12 @@
     padding: 30px 30px 60px;
     box-sizing: border-box;
     background-color: white;
-    flex-grow: 1;
+    flex-grow: 1
 }
 
 .rectangle_white_center {
     margin: 0 30px;
+
 }
 
 .ceny {

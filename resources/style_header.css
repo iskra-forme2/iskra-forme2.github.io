@@ -1,3 +1,8 @@
+header {
+    background-color: #F3F9FD;
+
+}
+
 @media screen and (min-width: 1200px) {
 
 header {
@@ -12,7 +17,8 @@ z-index: 1000;
     align-items: center;
     justify-content: space-between;
     padding: 30px 10%;
-    background-color: #fff;
+    /* background-color: #fff; */
+
 }
 
 
@@ -90,7 +96,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 30px 10%;
-    background-color: #fff;
+    /* background-color: #fff; */
 
     z-index: 1000;
 }

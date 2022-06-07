@@ -42,7 +42,7 @@
 }
 
 img.main_image {
-    width: 50%;
+    width: 60%;
     object-fit: cover;
     box-sizing: border-box;
     padding-left: 15px;
